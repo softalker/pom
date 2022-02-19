@@ -10,6 +10,13 @@
       <url>https://maven.pkg.github.com/softalks/*</url>
     </repository>
   </repositories>
+  <distributionManagement>
+    <repository>
+      <id>softalks-pom</id>
+      <name>github.com/softalks/pom</name>
+      <url>https://maven.pkg.github.com/softalks/pom</url>
+    </repository>
+  </distributionManagement>
   <servers>
     <server>
       <id>softalks</id>
