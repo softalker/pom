@@ -16,5 +16,5 @@ jobs:
           server-id: softalks-pom
       - env:
           GITHUB_TOKEN: ${{ secrets.WRITE_PACKAGES }}
-        run: mvn --batch-mode --update-snapshots deploy
+        run: mvn -X --batch-mode --update-snapshots deploy
         
